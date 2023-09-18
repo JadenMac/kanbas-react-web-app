@@ -1,7 +1,53 @@
-<h1>Profile Editor</h1>
-<form action="../screen.html">
-    <input name="fullName" />
-    <input name=""/>
-    <button>Save</button>
+<h1>Jose Annunziato</h1>
+<form action="./index.html">
+    <label for="full_name">Name:*</label>
+    <input id="full_name" name="fullName" value="Jose Annunziato" />
+    <label for="pronouns">Pronouns: </label>
+    <select id="pronouns">
+        <option>None</option>
+        <option>he/him/his</option>
+        <option>she/her/hers</option>
+        <option>they/them/theirs</option>
+    </select>
+    <br />
+    <label for="title_box">Title: </label>
+    <input id="title_box" name="title"/>
+    <br />
+
+    <h2>Contact</h2>
+    <p>No registered Services, you can add some on the <a href="">settings</a> page.</p>
+
+    <h2>Biography</h2>
+    <p>Faculty, Software Engineer, AI, Space, and renewables enthusiast.</p>
+    <textarea cols="50" rows="10">Faculty, Software Engineer, AI, Space, and renewables enthusiast.</textarea>
+
+    <h2>Links</h2>
+    <ul>
+        <li><a href="#">YouTube</a> Links to an external site.</li>
+    </ul>
+
+    <table>
+        <tbody>
+            <tr>
+                <td align="center">
+                    <h3>Title</h3>
+                    <input value="YouTube"/>
+                </td>
+                <td align="center">
+                    <h3>URL</h3>
+                    <input value="https://www.youtube.com"/>
+                </td>
+                <td valign="bottom" align="left">
+                    <a href="#">Remove</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button>Add another link</button>
+    <br />
     <button>Cancel</button>
+    <button>Save Profile</button>
+    <br />
+    <button>Edit Profile</button>
+    <button>Cancel Editing</button>
 </form>
