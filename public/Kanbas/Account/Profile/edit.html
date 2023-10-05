@@ -1,127 +1,199 @@
-<table width="100%">
-    <tbody>
-      <tr>
-        <td valign="top">
-            <ul>
-                <li>
-                    <a href="../../Account/Profile/index.html">Account</a>
+<script src="../../../vendors/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+
+<link href="../../../vendors/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../../../vendors/fontawesome-free-6.4.2-web/css/all.css" rel="stylesheet"/>
+<link href="../../styles.css" rel="stylesheet" />
+
+
+
+
+
+<div class="container-fluid">
+    <div class="row d-flex flex-nowrap">
+
+        <div class="kanbas-nav col-2">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <i class="fa-solid fa-n fa-3x"></i>
                 </li>
-                <li>
-                    <a href="#">Dashboard</a>
+                <li class="list-group-item list-group-item-active">
+                    <div>
+                        <a href="../../Account/Profile/index.html">
+                        <span class="fa-stack fa-lg nav-icon">
+                            <i class="fa-solid fa-user fa-stack-1x text-muted"></i>
+                            <i class="fa-regular fa-circle fa-stack-2x user-circle"></i>
+                        </span>
+                        Account</a>
+                    </div>
                 </li>
-                <li>
-                    <a href="../../Courses/Home/home.html">Courses</a>
+                <li class="list-group-item">
+                    <div>
+                        <a href="../../Dashboard/dashboard.html">
+                        <i class="fa-solid fa-gauge-high fa-2x nav-icon"></i>
+                    Dashboard</a>
+                    </div>
                 </li>
-                <li>
-                    <a href="#">Calendar</a>
+                <li class="list-group-item">
+                    <div>
+                        <a href="../../Courses/Home/home.html">
+                        <i class="fa-solid fa-book fa-2x nav-icon"></i>
+                    Courses</a>
+                    </div>
                 </li>
-                <li>
-                    <a href="#">Inbox</a>
+                <li class="list-group-item">
+                    <div>   
+                    <a href="#">
+                        <i class="fa-solid fa-calendar-days fa-2x nav-icon"></i>
+                        Calendar</a>
+                </div>
+                </li>
+                <li class="list-group-item">
+                    <div>
+                    <a href="#">
+                        <i class="fa-solid fa-inbox fa-2x nav-icon"></i>
+                        Inbox</a>
+                    </div>
                 </li>
             
-                <li>
-                    <a href="#">History</a>
+                <li class="list-group-item">
+                    <div>
+                    <a href="#">
+                        <i class="fa-regular fa-clock fa-2x nav-icon"></i>
+                        History</a>
+                    </div>
                 </li>
-                <li>
-                    <a href="#">Studio</a>
+                <li class="list-group-item">
+                    <div>
+                    <a href="#">
+                        <i class="fa-solid fa-display fa-2x nav-icon"></i>
+                        Studio</a>
+                    </div>
                 </li>  
-                <li>
-                    <a href="#">Commons</a>
+                <li class="list-group-item">
+                    <div>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-right-from-bracket fa-2x nav-icon"></i>
+                        Commons</a>
+                    </div>
                 </li>
-                <li>
-                    <a href="#">Help</a>
+                <li class="list-group-item">
+                    <div>
+                    <a href="#">
+                        <i class="fa-regular fa-circle-question fa-2x nav-icon"></i>
+                        Help</a>
+                    </div>
                 </li>
             </ul>
-        </td>
+            </div>
 
-        <td valign="top">
-            <ul>
-                <li>
+        <div class="col container-fluid profile-main-section">
+
+            <div class="row d-flex align-items-center pt-2">
+                <div class="col-1">
+                <a href="./account-nav.html"><i class="fa-solid fa-bars fa-lg"></i></a> 
+            </div>
+        <h4 class="col">Jose Annunziato's Profile</h4>
+        <hr />
+        <br />
+    </div>
+    <div class="row d-flex flex-nowrap">
+        <div class="col d-flex profile-navigation-col d-none d-sm-block">
+            <ul class="wd-profile-navigation list-group list-group-flush h-100">
+                <li class="list-group-item">
                     <a href="#">Notifications</a>
                 </li>
-                <li>
+                <li class="list-group-item list-group-item-active">
                     <a href="./index.html">Profile</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">Files</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">Settings</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">ePortfolios</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">Shared Content</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">The Hub</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">Qwickly Course Tools</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#">Global Announcements</a>
                 </li>
             </ul>
-        </td>
+        </div>
 
-        <td valign="top">
+        <div class="col m-3">
             <h1>Jose Annunziato</h1>
-<form action="./index.html">
-    <label for="full_name">Name:*</label>
-    <input id="full_name" name="fullName" value="Jose Annunziato" />
-    <label for="pronouns">Pronouns: </label>
-    <select id="pronouns">
-        <option>None</option>
-        <option>he/him/his</option>
-        <option>she/her/hers</option>
-        <option>they/them/theirs</option>
-    </select>
-    <br />
-    <label for="title_box">Title: </label>
-    <input id="title_box" name="title"/>
-    <br />
+            <form class="form-group" action="./index.html">
+                <label for="full_name" class="form-label">Name:*</label>
+                <input class="form-control" id="full_name" name="fullName" value="Jose Annunziato" />
+                <label for="pronouns" class="form-label">Pronouns: </label>
+                <div class="dropdown">
+                    <button class="btn bg-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      None
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <li><a class="dropdown-item" href="#">None</a></li>
+                      <li><a class="dropdown-item" href="#">he/him/his</a></li>
+                      <li><a class="dropdown-item" href="#">he/her/hers</a></li>
+                      <li><a class="dropdown-item" href="#">they/them/theirs</a></li>
+                    </ul>
+                  </div>
 
-    <h2>Contact</h2>
-    <p>No registered Services, you can add some on the <a href="">settings</a> page.</p>
+                <br />
+                <label for="title_box" class="form-label">Title: </label>
+                <input id="title_box" name="title"/>
 
-    <h2>Biography</h2>
-    <p>Faculty, Software Engineer, AI, Space, and renewables enthusiast.</p>
-    <textarea cols="50" rows="10">Faculty, Software Engineer, AI, Space, and renewables enthusiast.</textarea>
+            
+                <h2 class="mt-2 pt-2">Contact</h2>
+                <p>No registered Services, you can add some on the <a href="">settings</a> page.</p>
+            
+                <h2 class="mt-2 pt-2">Biography</h2>
+                <textarea class="form-control" cols="30" rows="8">Faculty, Software Engineer, AI, Space, and renewables enthusiast.</textarea>
+            
+                <h2 class="mt-2 pt-2">Links</h2>
+                <ul>
+                    <li><a href="#">YouTube</a> Links to an external site.</li>
+                </ul>
+            
+                <div class="mt-2 pt-2 row d-flex">
+                            <div class="col-5">
+                                <h3 >Title</h3>
+                                <input class="form-control" value="YouTube"/>
+                            </div>
+                            <div class="col-1"><i class="fa-solid fa-arrow-right"></i></div>
+                            <div class="col-5">
+                                <h3 >URL</h3>
+                                <input class="form-control" value="https://www.youtube.com"/>
+                            </div>
+                            <div class="col-1">
+                                <a href="#">X</a>
+                            </div>
+                </div>
+                <button class="btn mt-2">Add another link</button>
+                <hr />
+                <button class="btn">Cancel</button>
+                <button class="btn red-button">Save Profile</button>
 
-    <h2>Links</h2>
-    <ul>
-        <li><a href="#">YouTube</a> Links to an external site.</li>
-    </ul>
+                
+            </form>
+    </div>
+    <div class="col d-flex justify-content-end">
+        <a href="./index.html" ><button class="btn"><i class="fa-solid fa-pencil"></i>Cancel Editing</button></a>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
 
-    <table>
-        <tbody>
-            <tr>
-                <td align="center">
-                    <h3>Title</h3>
-                    <input value="YouTube"/>
-                </td>
-                <td align="center">
-                    <h3>URL</h3>
-                    <input value="https://www.youtube.com"/>
-                </td>
-                <td valign="bottom" align="left">
-                    <a href="#">Remove</a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <button>Add another link</button>
-    <br />
-    <button>Cancel</button>
-    <button>Save Profile</button>
-    <br />
-    <button>Edit Profile</button>
-    <button>Cancel Editing</button>
-</form>
-        </td>
 
-      </tr>
-    </tbody>
-</table>
+
+
+

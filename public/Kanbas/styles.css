@@ -1,0 +1,287 @@
+
+
+
+.kanbas-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85px;
+
+}
+
+.kanbas-nav ul{
+    width: 85px;
+    height:100%;
+    background-color: black;
+}
+
+.kanbas-nav .list-group-item{
+    background-color: black;
+    font-size: 12px;
+    text-align: center;
+}
+
+.kanbas-nav .list-group-item div {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.kanbas-nav .list-group-item i{
+    color: red;
+}
+
+.kanbas-nav .nav-icon {
+    padding:2px;
+}
+
+.kanbas-nav .list-group-item .user-circle {
+    color: white;
+
+}
+
+.kanbas-nav .list-group-item-active{
+    color: red;
+    background-color: white;
+}
+
+.kanbas-nav .list-group-item-active .user-circle {
+    color: gray;
+
+}
+
+
+.kanbas-nav a {
+    color:white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.kanbas-nav .list-group-item-active a {
+    color:red;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+ul.wd-course-navigation{
+    width: 190px;
+}
+
+ul.wd-course-navigation .list-group-item {
+    border:none;
+
+}
+
+ul.wd-course-navigation a {
+    color:red;
+    text-decoration: none;
+}
+
+
+ul.wd-course-navigation .list-group-item-active {
+    color:black;
+    border:none;
+    border-left: 2px solid black;
+}
+
+ul.wd-course-navigation .list-group-item-active a{
+    color:black;
+
+}
+
+
+
+ul.wd-profile-navigation {
+    width:190px;
+}
+
+.profile-navigation-col {
+    max-width:190px;
+}
+
+ul.wd-profile-navigation .list-group-item {
+    border:none;
+    font-size: 12px;
+}
+
+ul.wd-profile-navigation a {
+    color:red;
+    text-decoration: none;
+}
+
+
+ul.wd-profile-navigation .list-group-item-active {
+    color:black;
+    border:none;
+    border-left: 2px solid black;
+}
+
+ul.wd-profile-navigation .list-group-item-active a{
+    color:black;
+
+}
+
+div.profile-main-section {
+    margin:0px;
+    margin-left:20px;
+}
+
+div.profile-main-section a {
+    color:red;
+    text-decoration: none;
+}
+
+i.bars-icon {
+    color:red;
+    display: inline;
+}
+
+.profile-main-section button {
+    color:black;
+    background-color: silver;
+}
+
+.profile-main-section .red-button {
+    background-color:red;
+}
+
+.profile-main-section .white-button {
+   background-color: white;
+}
+
+.dashboard-main-section {
+    margin-left: 20px;
+}
+
+.dashboard-sub {
+    padding-left:10px;
+}
+
+.dashboard-sub .card {
+    padding:0px;
+    margin: 30px;
+    width:270px;
+
+}
+
+.dashboard-sub .card-image-top {
+    height: 180px;
+}
+
+.dashboard-sub .wd-card-top .ellipsis-icon {
+    color: white;
+    z-index: 1;
+    position:absolute;
+    padding-top: 10px;
+    margin-left: 250px;
+    
+}
+
+.dashboard-sub .wd-card-top {
+    position: relative;
+}
+
+.dashboard-sub .card a{
+    text-decoration: none;
+    color: gray;
+}
+
+.dashboard-sub .card .card-title {
+    color: blue;
+}
+
+ul.wd-course-navigation {
+    width:190px;
+}
+
+.course-navigation-col {
+    max-width:190px;
+}
+
+.list-group-item-indent {
+    padding-left: 50px;
+}
+
+.main-home-col {
+    margin-left: 20px;
+}
+.main-home-col a {
+    color:red;
+    text-decoration: none;
+}
+
+.modules-list .float-right {
+    float:right;
+    padding:5px;
+}
+
+.modules-list .fa-circle-check {
+    color:green;
+}
+
+.modules-list .plus-icon {
+    color:gray;
+}
+
+.modules-list .ellipsis-icon {
+    color:black;
+}
+
+.modules-list {
+    margin-bottom: 30px;
+}
+
+.col .float-right {
+    float:right;
+    padding:5px;
+}
+
+.main-home-col .btn {
+    margin:2px;
+}
+
+.assignments-list {
+    margin-bottom: 30px;
+}
+
+.assignments-list p{
+    margin-top:2px;
+    margin-bottom:2px;
+}
+
+.assignments-list a {
+    color:black;
+}
+.assignments-list h5 {
+margin-top:2px;
+margin-bottom:2px;
+}
+
+.assignments-list .float-right {
+    float:right;
+}
+
+.assignments-list li{
+border-left: 4px solid green;
+}
+
+.assignments-list .list-group-item-secondary {
+    border:none;
+}
+
+.col .table {
+    font-size: 14;
+    text-align: center;
+}
+
+.col .table input{
+    font-size: 14;
+    text-align: center;
+}
+
+
