@@ -46,7 +46,7 @@ function Assignments() {
                 <i className="fa-solid fa-grip-vertical"></i>
               <i className="p-4 text-success fa-regular fa-pen-to-square fa-lg"></i>
               <span>
-              <Link><h5>{assignment.title}</h5></Link>
+              <h5>{assignment.title}</h5>
             <p>Module | </p>
             <p>Due | 100 pts </p>
                 </span>
@@ -71,19 +71,3 @@ function Assignments() {
 }
 export default Assignments;
 
-<div className="d-flex align-items-center justify-content-between">
-                <div className="d-flex align-items-center">
-                  <i className="fa-solid fa-grip-vertical"></i>
-              <i className="p-4 text-success fa-regular fa-pen-to-square fa-lg"></i>
-              <span>
-              <a href="./edit.html"><h5>A1 - ENV + HTML</h5></a>
-            <p>Module | </p>
-            <p>Due | 100 pts </p>
-                </span>
-      </div>
-          <span>
-          <Link className="p-2 ellipsis-icon float-right"> 
-            <i className="fa-solid fa-ellipsis-vertical"></i></Link>
-            <i className="p-2 fa-solid fa-circle-check float-right text-success"></i>
-          </span>
-        </div>
