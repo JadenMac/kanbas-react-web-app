@@ -58,7 +58,7 @@ function Kanbas() {
               updateCourse={updateCourse}/>} />
           
           <Route path="Courses/:courseId/*" element={<Courses courses={courses}/>} />
-          <Route path="Courses/" element={<Navigate to={`${courses[0]._id}`} />} />
+          <Route path="Courses/" element={courses.length > 0 &&<Navigate to={`${courses[0]._id}`} />} />
 
         </Routes>
     </div>
