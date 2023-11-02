@@ -22,7 +22,6 @@ function Modules() {
 
 
         <button class="btn btn-sm  btn-danger">Module</button>
-        <button class="btn btn-sm btn-secondary"><i class="fa-solid fa-plus"></i></button>
       </div>
       <hr />
 
