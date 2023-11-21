@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
+const LAB_BASE = process.env.REACT_APP_LAB_BASE;
 
 function WorkingWithArrays() {
   const [errorMessage, setErrorMessage] = useState(null);
@@ -79,7 +80,7 @@ function WorkingWithArrays() {
   }, []);
 
     
-    const API = "http://localhost:4000/a5/todos";
+    const API = `${LAB_BASE}/todos`;
     return (
       <div>
         <h3>Working with Arrays</h3>
